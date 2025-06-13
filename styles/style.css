@@ -6,6 +6,29 @@
   font-style: normal;
 }
 
+.white{
+    color: white;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0D1321;
+}
+
+h3{
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.learn-button{
+    padding: 12px 20px 12px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: transparent;
+    
+}
+
 /* background style */
 
 .background-design{
@@ -17,7 +40,7 @@
  
 }
 .child{
-    height: 4300px;
+    height: 4370px;
     width: 75px;
     background-color: rgb(255, 192, 203,0.4);
     
@@ -30,6 +53,19 @@
    
 }
 
+.nav-child a{
+    font-size: 28px;
+    font-weight: 800;
+    color: black;
+}
+.nav-child button{
+    padding: 10px;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
 /* banner */
 .hero{
     background-image: url(../images/Hero-bg.png);
@@ -37,10 +73,29 @@
     margin-bottom: 75px;
     text-align: center;
 }
+
+.banner-child h3{
+    font-size: 48px;
+    font-weight: 800;
+    color: black;
+}
+.banner-child button{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    background-color: black;
+}
+.banner-child button a{
+    text-decoration: none;
+    color:white;
+}
+
 /* why-web-dev */
 .why-web-dev{
     margin: 0px 195px 90px 190px;
 }
+
 .reason{
     margin: 80px 97px 80px 97px;
 }
@@ -54,6 +109,16 @@
     justify-content: space-between;
 }
 
+.why-web-dev h4{
+    font-size:24px;
+    font-weight: bold;
+    color: rgb(13, 19, 33,0.6);
+  
+}
+
+
+
+
 /* My Inspiration */
 .my-inspiration{
     margin: 0px 195px 150px 190px;
@@ -65,6 +130,7 @@
 .my-inspiration iframe{
     margin: 32px;
 }
+
 
 /* my-current-target */
 .my-current-target{
@@ -83,6 +149,11 @@
     width: 370px;
     margin: 40px;
 }
+.my-current-target a{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
 #child-1{
     background-color:rgb(255, 192, 203,0.2);
  
@@ -94,6 +165,8 @@
 #child-3{
     background-color: rgba(187, 187, 229, 0.2);
 }
+
+
 /* my-next-target */
 .my-next-target{
     margin: 0px 195px 50px 190px;
@@ -107,7 +180,15 @@
 }
 .my-next-target>.skills>.skill-child{
     display: flex;
+    gap: 24px;
 }
+.my-next-target a{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+
 /* Support section */
 .support{
     max-height:310px ;
@@ -116,19 +197,31 @@
     background-size: cover;
     background-position:center ;
     opacity: 0.9;
-    color: white;
+   
 }
 .support>.content{
     text-align: center;
     padding: 64px 48px 64px 48px;
   
 }
+input{
+    padding: 10px;
+    
+}
+ input[type=submit]{
+    font-weight: 600;
+    color: #0D1321;
+ }
 
 /* footer */
 .footer-section{
       margin: 0px 195px 0px 190px;
       display: flex;
       justify-content: space-between;
+}
+.footer-section>.description{
+    font-size: 20px;
+    font-weight: 600;
 }
 .footer-section>.contact-details{
     display: flex;
